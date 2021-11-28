@@ -4,7 +4,7 @@
 
     <h1>Add Task</h1>
     <form action="{% url 'todolist:add' %}" method = "POST">
-        {% csrf_token %}
+<!--    add csrf_token      -->
         {{ form }}
         <input type="submit">
     </form>
